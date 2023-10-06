@@ -1,0 +1,10 @@
+I have debugged the project until I reached this below error related to the use of sound for both the racket to hit the ball and the ball to breack a brick
+
+
+Resolving dependencies...
+Error: cabal.exe: Could not resolve dependencies:
+[__0] trying: Bricksbreak-0.1.0.0 (user goal)
+[__1] unknown package: wav (dependency of Bricksbreak)
+[__1] fail (backjumping, conflict set: Bricksbreak, wav)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: Bricksbreak, wav
